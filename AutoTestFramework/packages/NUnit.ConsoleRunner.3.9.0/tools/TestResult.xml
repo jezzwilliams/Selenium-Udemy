@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-12-31 11:33:17Z" end-time="2018-12-31 11:33:41Z" duration="23.625807">
+  <command-line><![CDATA[nunit3-console.exe  "G:\ONEDRIVE\Learning\Udemy\Selenium WebDriver with C#\Framework\AutoTestFramework\AutoTestFramework\bin\Debug\AutoTestFramework.exe"]]></command-line>
+  <test-suite type="Assembly" id="0-1006" name="AutoTestFramework.exe" fullname="AutoTestFramework.exe" runstate="Runnable" testcasecount="4" result="Passed" start-time="2018-12-31 11:33:17Z" end-time="2018-12-31 11:33:40Z" duration="23.010619" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="G:\ONEDRIVE\Learning\Udemy\Selenium WebDriver with C#\Framework\AutoTestFramework\packages\NUnit.ConsoleRunner.3.9.0\tools" machine-name="JEZ-PC" user="Jez" user-domain="Jez-PC" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="G:\ONEDRIVE\Learning\Udemy\Selenium WebDriver with C#\Framework\AutoTestFramework\packages\NUnit.ConsoleRunner.3.9.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="15820" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1007" name="AutoFramework" fullname="AutoFramework" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-12-31 11:33:17Z" end-time="2018-12-31 11:33:36Z" duration="18.299318" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="TestFixture" id="0-1000" name="LoginInvalidPassword" fullname="AutoFramework.LoginInvalidPassword" classname="AutoFramework.LoginInvalidPassword" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-12-31 11:33:18Z" end-time="2018-12-31 11:33:36Z" duration="18.296301" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-case id="0-1001" name="LessThan5Chars" fullname="AutoFramework.LoginInvalidPassword.LessThan5Chars" methodname="LessThan5Chars" classname="AutoFramework.LoginInvalidPassword" runstate="Runnable" seed="2043769420" result="Passed" start-time="2018-12-31 11:33:23Z" end-time="2018-12-31 11:33:30Z" duration="7.381459" asserts="1" />
+        <test-case id="0-1002" name="MoreThan12Chars" fullname="AutoFramework.LoginInvalidPassword.MoreThan12Chars" methodname="MoreThan12Chars" classname="AutoFramework.LoginInvalidPassword" runstate="Runnable" seed="1726059598" result="Passed" start-time="2018-12-31 11:33:30Z" end-time="2018-12-31 11:33:36Z" duration="5.213975" asserts="1" />
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" id="0-1008" name="AutoTestFramework" fullname="AutoTestFramework" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-12-31 11:33:18Z" end-time="2018-12-31 11:33:40Z" duration="22.981518" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="TestSuite" id="0-1009" name="Scenarios" fullname="AutoTestFramework.Scenarios" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-12-31 11:33:18Z" end-time="2018-12-31 11:33:40Z" duration="22.981507" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="TestFixture" id="0-1003" name="LoginInvalidUsername" fullname="AutoTestFramework.Scenarios.LoginInvalidUsername" classname="AutoTestFramework.Scenarios.LoginInvalidUsername" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-12-31 11:33:36Z" end-time="2018-12-31 11:33:40Z" duration="4.681337" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1004" name="LessThan5Chars" fullname="AutoTestFramework.Scenarios.LoginInvalidUsername.LessThan5Chars" methodname="LessThan5Chars" classname="AutoTestFramework.Scenarios.LoginInvalidUsername" runstate="Runnable" seed="1029317784" result="Passed" start-time="2018-12-31 11:33:40Z" end-time="2018-12-31 11:33:40Z" duration="0.288345" asserts="1" />
+          <test-case id="0-1005" name="MoreThan12Chars" fullname="AutoTestFramework.Scenarios.LoginInvalidUsername.MoreThan12Chars" methodname="MoreThan12Chars" classname="AutoTestFramework.Scenarios.LoginInvalidUsername" runstate="Runnable" seed="794339161" result="Passed" start-time="2018-12-31 11:33:40Z" end-time="2018-12-31 11:33:40Z" duration="0.200212" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

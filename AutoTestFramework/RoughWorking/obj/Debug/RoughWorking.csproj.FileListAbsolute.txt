@@ -1,0 +1,2 @@
+G:\ONEDRIVE\Learning\Udemy\Selenium WebDriver with C#\Framework\AutoTestFramework\RoughWorking\obj\Debug\RoughWorking.csprojAssemblyReference.cache
+G:\ONEDRIVE\Learning\Udemy\Selenium WebDriver with C#\Framework\AutoTestFramework\RoughWorking\obj\Debug\RoughWorking.csproj.CoreCompileInputs.cache
