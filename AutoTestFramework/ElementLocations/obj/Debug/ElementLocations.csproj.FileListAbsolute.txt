@@ -1,0 +1,11 @@
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\bin\Debug\ElementLocations.exe.config
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\bin\Debug\ElementLocations.exe
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\bin\Debug\ElementLocations.pdb
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\bin\Debug\WebDriver.dll
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\bin\Debug\WebDriver.xml
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\obj\Debug\ElementLocations.csprojAssemblyReference.cache
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\obj\Debug\ElementLocations.csproj.CoreCompileInputs.cache
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\obj\Debug\ElementLocations.csproj.CopyComplete
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\obj\Debug\ElementLocations.exe
+C:\GIT\Selenium-Udemy\AutoTestFramework\ElementLocations\obj\Debug\ElementLocations.pdb
