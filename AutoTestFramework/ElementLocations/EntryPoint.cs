@@ -15,21 +15,17 @@ namespace ElementLocations
 
             driver.Navigate().GoToUrl(url);
 
-            IWebElement image = driver.FindElement(By.CssSelector("#page-17 > div > p:nth-child(1) > a > img"));
+            IWebElement content = driver.FindElement(By.CssSelector("#page-17 > div"));
 
-            //Maximises the web page window
-            driver.Manage().Window.Maximize();
-
-            //gives the top left of the image
-            Console.WriteLine(image.Location.X);
-            Console.WriteLine(image.Location.Y);
-
-            //get the width 
-            Console.WriteLine(image.Size.Width);
-            //Get the height
-            Console.WriteLine(image.Size.Height);
-
-        
+            //Enter the value from https://www.w3schools.com/cssref/ here
+            SetStyle(driver, content, "color", "green");
+                   
+        }
+        static void SetStyle(IWebDriver driver, IWebElement element, string style, string styleValue)
+        {
+            string script = String.Format ("arguments[0].style[\"{0}\"] = \"{1}\"", style, styleValue);
+            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
+            jsExecutor.ExecuteScript(script, element);
         }
     }
 }
