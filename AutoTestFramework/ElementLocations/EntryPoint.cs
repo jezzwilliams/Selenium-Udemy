@@ -26,6 +26,7 @@ namespace ElementLocations
             string script = String.Format ("arguments[0].style[\"{0}\"] = \"{1}\"", style, styleValue);
             IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
             jsExecutor.ExecuteScript(script, element);
+
         }
     }
 }
